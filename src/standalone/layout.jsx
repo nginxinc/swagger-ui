@@ -22,7 +22,6 @@ export default class StandaloneLayout extends React.Component {
     let Row = getComponent("Row")
     let Col = getComponent("Col")
 
-    const Topbar = getComponent("Topbar", true)
     const BaseLayout = getComponent("BaseLayout", true)
     const OnlineValidatorBadge = getComponent("onlineValidatorBadge", true)
 
